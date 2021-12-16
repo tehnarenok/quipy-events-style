@@ -1,0 +1,15 @@
+.message-container.custom-scroll .message .message-avatar .avatar.md.blob {
+	position: relative;
+}
+
+.message-container.custom-scroll .message:nth-child(3n) .message-avatar .avatar.md.blob::before {
+	content: "";
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	background-image: url(https://pngicon.ru/file/uploads/shapka-santy.png);
+	background-size: cover;
+	top: -10px;
+	right: -10px;
+	transform: rotate(9deg);
+}

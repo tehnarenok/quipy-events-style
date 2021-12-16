@@ -1,0 +1,14 @@
+{
+  "name": "quipy-new-year",
+  "version": "1.0.0",
+  "description": "",
+  "main": "new_year_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rd /s /q dist",
+    "copy-files": "xcopy /s src\\public\\*.* dist",
+    "build": "yarn clean && tsc && yarn copy-files"
+  },
+  "author": "",
+  "license": "ISC"
+}
