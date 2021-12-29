@@ -12,7 +12,13 @@ window.onload = () => {
     if (linkIcon)
         linkIcon.href = 'https://quipy-nine.vercel.app/logo.png';
     if (localStorage.getItem("newYear2021WasShown") !== "true") {
-        //document.getElementsByTagName("body")[0].insertAdjacentHTML('beforeend', 'document.getElementsByTagName("body")[0].insertAdjacentHTML('beforeend', '<iframe id="ny2021frame" src="https://quipy-nine.vercel.app/newyear_congrats.html" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 10000;"></iframe>')')
-        localStorage.setItem("newYear2021WasShown", "true");
+        document.getElementsByTagName("body")[0].insertAdjacentHTML('beforeend', '<iframe id="ny2021frame" src="https://quipy-nine.vercel.app/newyear_congrats.html" style="border:0;position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 10000;"></iframe>');
+        window.addEventListener('message', event => {
+            var _a;
+            if (event.data == "closeNY") {
+                localStorage.setItem("newYear2021WasShown", "true");
+                (_a = document.getElementById("ny2021frame")) === null || _a === void 0 ? void 0 : _a.remove();
+            }
+        });
     }
 };
