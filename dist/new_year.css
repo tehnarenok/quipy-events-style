@@ -77,3 +77,9 @@
 	background-size: contain;
 	background-repeat: repeat-x;
 }
+
+.rs-sidenav.rs-sidenav-inverse.rs-sidenav-collapse-out {
+	background-color: #3498ff;
+    background-image: url(https://quipy-nine.vercel.app/snowflakes.png);
+    background-size: 57px;
+}
