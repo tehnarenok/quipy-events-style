@@ -34,3 +34,30 @@
 .rs-nav.rs-nav-default.rs-navbar-nav.rs-navbar-right.rs-nav-horizontal {
   	background-color: #f7f7fa;
 }
+
+.rs-sidenav-header div svg {
+	display: none;
+}
+
+.rs-sidenav-header:nth-child(1) {
+	background-image: var(--quipy_newyear);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.message-avatar div .avatar.md.blob {
+	position: relative !important;
+}
+  
+.message-avatar div .avatar.md.blob::after {
+	position: absolute;
+	content: '';
+	width: 39px;
+	height: 31px;
+	top: -12px;
+	left: -12px;
+	background-image: var(--hat);
+	background-size: contain;
+	background-repeat: no-repeat;
+	transform: rotate(333deg);
+}
