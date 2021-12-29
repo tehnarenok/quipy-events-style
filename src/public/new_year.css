@@ -94,3 +94,19 @@
 	height: 100%;
 	animation: snow 20s linear infinite;
 }
+
+.dashboard__panel {
+	position: relative !important;
+}
+  
+.dashboard__panel::after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	background-image: url(https://quipy-nine.vercel.app/garland.png);
+	background-size: contain;
+	background-repeat: repeat-x;
+}
