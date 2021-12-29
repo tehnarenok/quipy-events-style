@@ -126,6 +126,6 @@
 
 .rs-btn-primary, .rs-btn-primary > .rs-icon {
     background: linear-gradient(
-45deg, #3498ff 25%, #ad1818 25%, #ad1818 50%, #3498ff 50%, #3498ff 75%, #ad1818 75%, #ad1818 100%)!important;
+45deg, #3498ff 25%, #EA3636 25%, #EA3636 50%, #3498ff 50%, #3498ff 75%, #EA3636 75%, #EA3636 100%)!important;
     background-size: 28.28px 28.28px!important;
 }
