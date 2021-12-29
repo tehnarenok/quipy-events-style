@@ -78,24 +78,19 @@
 	background-repeat: repeat-x;
 }
 
-/* .rs-sidenav.rs-sidenav-inverse {
+.rs-sidenav.rs-sidenav-inverse {
 	background-color: #3498ff;
     background-image: url(https://quipy-nine.vercel.app/snowflakes.png);
     background-size: 57px;
-} */
+}
 
 @keyframes snow {
 	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
 	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
   
-.rs-sidenav.rs-sidenav-inverse {
-	background-color: black;
+.user-profile {
 	background-image: url(https://quipy-nine.vercel.app/snowflake.png), url(https://quipy-nine.vercel.app/snowflake3.png), url(https://quipy-nine.vercel.app/snowflake2.png) !important;
 	height: 100%;
 	animation: snow 20s linear infinite;
-}
-
-.rs-sidenav-body {
-	background-color: #3498ff;
 }
