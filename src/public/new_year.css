@@ -75,5 +75,5 @@
 	height: 20px;
 	background-image: url(https://quipy-nine.vercel.app/garland.png);
 	background-size: contain;
-	background-repeat: repeat;
+	background-repeat: repeat-x;
 }
