@@ -10,5 +10,5 @@ window.onload = () => {
     head.appendChild(link);
 
 	let linkIcon = <HTMLLinkElement>document.querySelector("link[rel~='icon']");
-    if(linkIcon) linkIcon.href = 'https://i.pinimg.com/originals/fd/71/7d/fd717d65b03bdf7416f23105917f4c02.png'
+    if(linkIcon) linkIcon.href = 'https://quipy-nine.vercel.app/logo.png'
 }
