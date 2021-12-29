@@ -31,7 +31,7 @@
     background-repeat: repeat;
 }
 
-.rs-header:before {
+/* .rs-header:before {
     content: "С НОВЫМ КВИПИ ГОДОМ!!!!";
     background: #ad1818;
     width: 100%;
@@ -41,7 +41,7 @@
     text-align: center;
     font-size: 20px;
     padding: 10px;
-}
+} */
 
 .rs-nav.rs-nav-default.rs-navbar-nav.rs-navbar-right.rs-nav-horizontal {
   	background-color: #f7f7fa;
@@ -117,6 +117,7 @@
 	top: 0;
 	left: 0;
 	height: 17px;
+	width: 100%;
 	background-image: url(https://quipy-nine.vercel.app/garland.png);
 	background-size: 900px;
 	background-repeat: repeat-x;

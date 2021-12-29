@@ -11,4 +11,6 @@ window.onload = () => {
 
 	let linkIcon = <HTMLLinkElement>document.querySelector("link[rel~='icon']");
     if(linkIcon) linkIcon.href = 'https://quipy-nine.vercel.app/logo.png'
+
+    
 }
