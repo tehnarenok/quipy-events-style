@@ -91,9 +91,10 @@
 }
 
 .rs-sidenav.rs-sidenav-inverse {
-	background-color: #3498ff;
-    background-image: url(https://quipy-nine.vercel.app/snowflakes.png);
-    background-size: 57px;
+	background-image: url(https://quipy-nine.vercel.app/snowflake-white.png), url(https://quipy-nine.vercel.app/snowflake-white3.png), url(https://quipy-nine.vercel.app/snowflake-white2.png) !important;
+	height: 100%;
+	animation: snow 20s linear infinite;
+	background-size: 200px !important;
 }
 
 @keyframes snow {
