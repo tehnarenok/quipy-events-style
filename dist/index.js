@@ -11,7 +11,8 @@ window.onload = () => {
     let linkIcon = document.querySelector("link[rel~='icon']");
     if (linkIcon)
         linkIcon.href = 'https://quipy-nine.vercel.app/logo.png';
-    if (localStorage.getItem("newYear2021WasShown") !== "true") {
+    let d = new Date();
+    if (localStorage.getItem("newYear2021WasShown") !== "true" && ((d.getMonth() == 11 && d.getDate() == 31) || (d.getMonth() == 0 && d.getDate() <= 10))) {
         document.getElementsByTagName("body")[0].insertAdjacentHTML('beforeend', '<iframe id="ny2021frame" src="https://quipy-nine.vercel.app/newyear_congrats.html" style="border:0;position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 10000;"></iframe>');
         window.addEventListener('message', event => {
             var _a;
