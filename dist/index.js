@@ -1,5 +1,4 @@
 "use strict";
-console.log('Hello ёпта');
 window.onload = () => {
     let head = document.getElementsByTagName('head')[0];
     let link = document.createElement('link');
