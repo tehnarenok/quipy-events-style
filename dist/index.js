@@ -1,6 +1,6 @@
 "use strict";
-console.log('Hello ёпта');
 window.onload = () => {
+    return;
     let head = document.getElementsByTagName('head')[0];
     let link = document.createElement('link');
     link.rel = 'stylesheet';
